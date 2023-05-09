@@ -1,0 +1,241 @@
+/*Body*/
+body{
+	/*para colocar una imagen de fondo*/
+	background-image:url("../imagenes/negro.jpg");
+	/*para que no se repita la imagen de fondo*/
+	background-repeat: no-repeat;
+	/*para indicar el size del fondo*/
+	background-size: 100% 100%;
+	
+	font-family: "WRESTLEMANIA";
+	/*font family es para indicar el tipo de letra*/
+	font-size: 100px;
+	/*font-size es para indicar el tamaño de la letra en pixeles*/
+	color: #01FFFB;
+	/*color es para indicar el color de la letra*/
+	
+}
+hr{
+	/*border es para la linea tamaño en pixeles tipo de linea y color*/
+	border: 5px solid #09DEDB;
+	/*border radiues es para el terminado de las orillas el radio que tendra se expresa en pixeles*/
+	border-radius: 5px;
+	border-width: 80%
+}
+p{
+	/*text align se utiliza para alinear el texto por default estan alineados a la izquierda */
+	text-align:center;
+	font-size: 70px;
+	color:#CE00EF;
+	Background-color:
+}
+table,td,tr{
+	/*linea de grosor y tipo de linea*/
+	border-color:#EF0086;
+	/*alineacion del texto*/
+	text-align: center;
+	/*color de fondo*/
+	background-color:#09DEDB;
+	border: 5px solid #00B1EF;
+
+}
+th{
+Background-color: withe;	
+}
+ul{
+	/*indica el tipo de viñeta, en este caso un circulo, puede ser tambien un cuadrado*/
+	list-style-type:circle;
+	list-style-position: inside;
+}
+ol{
+	/* Algunos de los valores de list-style-tyepe: son:
+	lower-alpha, lower-roman; upper-alpha; upper-roman;
+	a,b,c,d,e,f  i,ii,iii,iv A,B,C,D,E,F I,II;III,IV*/
+	list-style-type:upper-roman;
+	list-style-position: inside;
+}
+.pie{
+	text-align:center;
+	font-size:20px;
+    color:#AB09DE;
+	font-family: "WRESTLEMANIA";
+	font-weight:bold; 
+}
+.tabla{
+	font-family:"WRESTLEMANIA";
+	font-size: 50px;
+	color:#CE00EF;
+	
+}
+.texto{
+font-family: "Streetbomber";
+font-size: 100px;
+color:#17202A;
+font-weight: bold;
+text-align:center;
+}
+.marquesina{ 
+width:300px;
+height:300px;
+}
+.botones{
+	
+	width:100px;
+	height:100px;
+}
+.imgtabla{
+width:200px;
+height:200px;
+}
+.imgotras{
+width:400px;
+height:400px;
+Border-radius:50%;
+padding:50px;
+border: 50px solid #CE00EF;
+
+}
+@font-face{
+	font-family: MARSNEVENEKSK;
+	src: url("../fuentes/MARSNEVENEKSK-Regular.otf");
+}
+@font-face{
+	font-family: DOCALLISME ON STREET;
+	src: url("../fuentes/DOCALLISME ON STREET.ttf");
+}
+@font-face{
+	font-family: Streetbomber;
+	src: url("../fuentes/Streetbomber.ttf");
+}
+@font-face{
+	font-family: WRESTLEMANIA;
+	src: url("../fuentes/WRESTLEMANIA.ttf");
+}
+.fuentegoogle{
+	font-family: 'Lora', serif;
+}
+/* uso de Div's*/
+/*Div o caja para el encabezado*/
+*{
+	margin:0px;
+	padding:0px;
+}
+div#top{
+	width:100%;
+	height:150px;
+	Background-image:linear-gradient(#B400EE,#01F7FE);
+}
+div#principal{
+	margin:auto;
+	margin-top:10px;
+	width:90%;
+	Background-image:linear-gradient(#154360,#154360);
+}
+div#piep{
+	margin-top:10px;
+	width:100%;
+	height:80px;
+	background-image:url("../imagenes/negro.jpg");
+}
+.caja{
+	height:300px;
+	width:200px;
+	background:#B901FE;
+	Border:1px solid #B901FE;
+	margin:5px;
+	color:black;
+	text-align:Center;
+	display:inline-block;
+}
+.caja:hover{
+	box-shadow:0 0 10px #E301FE;
+	transform: scale(1.3);
+}
+.caja-texto{
+	padding-top:5px;
+	font-size:20px;
+	color:#B901FE;
+	font-weight:bold;
+}
+.texto-adicional{
+	padding-top:5px;
+	font-size:15px;
+}
+.carrousel{
+    width:600px;
+    margin:auto;
+    box-sizing:border-box;
+}
+.conteCarrousel{
+    width:100%;
+    height:400px;
+    overflow:hidden;
+    box-sizing:border-box;
+}
+.itemCarrousel{
+    position:relative;
+    width:100%;
+    height:100%;
+    box-sizing:border-box;
+}
+.itemCarrouselTarjeta{
+    width:100%;
+    height:100%;
+    box-sizing:border-box;
+}
+.itemCarrouselArrows{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px;
+    box-sizing:border-box;
+}
+.itemCarrouselArrows >i :hover{
+    cursor:pointer;
+}
+.conterCarrouselController{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+}
+.conterCarrouselController >a{
+    text-decoration:none;
+    font-size:32px;
+    color:grey;
+}
+.itemCarrouselArrows >a >i {
+    color:white;
+}
+
+.menu{
+	height:85px;
+	width:85px;
+	background:#B901FE;
+	Border:1px solid #B901FE;
+	margin:5px;
+	color:black;
+	text-align:Center;
+	display:inline-block;
+}
+.menu:hover{
+	box-shadow:0 0  #E301FE;
+	transform: scale(1.3);
+}
+
+.texto-productos{
+	width:500px;
+	Background-image:linear-gradient(gray,blue);
+	font-size:20px;
+	color:white;
+}
+	
+
+
+
